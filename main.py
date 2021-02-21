@@ -10,10 +10,7 @@ start = 0
 tn = telnetlib
 
 ip_eingabe = input("Enter the IP address: ")
-try:
-    os.system("ping " + ip_eingabe) == 1
-except:
-    print("Bad!")
+os.system("ping " + ip_eingabe) == 1
 print("\b")
 port1 = input("Enter the first port: ")
 port1 = int(port1)
