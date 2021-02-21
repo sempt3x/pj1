@@ -27,7 +27,7 @@ while port1 < port2:
     port_loop = format(port1)
     try:
         tn.Telnet(ip_eingabe,port_loop,1)
-        print("[TCP-Port: " + format(port_loop) + "] Dieser Port ist Offen")
+        print("[TCP-Port: " + format(port_loop) + "] Port is open!")
     except:
-        print("[TCP-Port: " + format(port_loop) + "] Dieser Port ist nicht Offen")
+        print("[TCP-Port: " + format(port_loop) + "] Port is not open!")
     time.sleep(1)
