@@ -16,6 +16,7 @@ port1 = input("Enter the first port: ")
 port1 = int(port1)
 port2 = input("Enter the second port: ")
 port2 = int(port2)
+print("\n\n")
 
 while port1 < port2:
     port1 += 1
