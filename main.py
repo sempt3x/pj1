@@ -26,4 +26,4 @@ while port1 < port2:
         print(Fore.GREEN+"[TCP-Port: " + format(port_loop) + "] Port is open!")
     except:
         print(Fore.RED+"[TCP-Port: " + format(port_loop) + "] Port is not open!")
-print(Fore.WHITE+"Ende")
+print(Fore.WHITE)
