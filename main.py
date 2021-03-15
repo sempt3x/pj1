@@ -1,6 +1,6 @@
 import os
 import telnetlib
-import time
+from colorama import Fore
 
 ip_eingabe = ""
 port1 = -1
@@ -23,6 +23,7 @@ while port1 < port2:
     port_loop = format(port1)
     try:
         tn.Telnet(ip_eingabe, port_loop, 1)
-        print("\033[1;32;40m [TCP-Port: " + format(port_loop) + "] Port is open!")
+        print(Fore.GREEN+"[TCP-Port: " + format(port_loop) + "] Port is open!")
     except:
-        print("\033[1;31;40m [TCP-Port: " + format(port_loop) + "] Port is not open!")
+        print(Fore.RED+"[TCP-Port: " + format(port_loop) + "] Port is not open!")
+print(Fore.WHITE+"Ende")
