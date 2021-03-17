@@ -3,7 +3,7 @@ import telnetlib
 from colorama import Fore
 
 ip_eingabe = ""
-port1 = -1
+port1 = 0
 port2 = 50
 start = 0
 correct_counter = 0
@@ -14,11 +14,11 @@ tn = telnetlib
 ip_eingabe = input("Enter the IP address: ")
 os.system("ping " + ip_eingabe) == 1
 print("\b")
-port1 = input("Enter the first port: ")
+port1 = input("Enter the first TCP port: ")
 port1 = int(port1)
-port2 = input("Enter the second port: ")
+port2 = input("Enter the second TCP port: ")
 port2 = int(port2)
-print("\n\n")
+print("\n")
 print(Fore.WHITE+"[SCAN] \n")
 while port1 < port2:
     port1 += 1
@@ -33,6 +33,6 @@ while port1 < port2:
 print("\n")
 print(Fore.WHITE+"[Status] \n")
 print("Used IP: "+ip_eingabe)
-print(Fore.GREEN+"Opened Ports: "+format(correct_counter))
-print(Fore.RED+"Closed Ports: "+format(fatal_counter))
+print(Fore.GREEN+"Opened TCP Ports: "+format(correct_counter))
+print(Fore.RED+"Closed TCP Ports: "+format(fatal_counter))
 print(Fore.WHITE)
