@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc4287ba-5a3a-4472-ac87-788474a6e83a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,9 @@
       <module name="sempt3x-Port-Scanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="D:\sempt3x\Dokumente\PycharmProjects\sempt3x-Port-Scanner\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -63,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616013271133</updated>
       <workItem from="1616013283074" duration="218000" />
-      <workItem from="1616013513879" duration="1056000" />
+      <workItem from="1616013513879" duration="2039000" />
+      <workItem from="1616049595855" duration="823000" />
     </task>
     <servers />
   </component>
@@ -83,6 +88,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sempt3x_Port_Scanner$run.coverage" NAME="run Coverage Results" MODIFIED="1616013719375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sempt3x_Port_Scanner$run.coverage" NAME="run Coverage Results" MODIFIED="1616049956174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
