@@ -11,7 +11,7 @@ fatal_counter = 0
 
 tn = telnetlib
 
-ip_eingabe = input("Enter the IP address: ")
+ip_eingabe = input('Enter the IP address: ')
 os.system('ping ' + ip_eingabe) == 1
 print('\b')
 port1 = input('Enter the first TCP port: ')
